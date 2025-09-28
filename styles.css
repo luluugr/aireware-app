@@ -33,8 +33,9 @@ nav a {
 .velocimetro {
     position: relative;
     width: 200px;
-    height: 100px;
+    height: 150px;
     margin: 0 auto;
+   
 }
 
 .velocimetro-base {
@@ -63,6 +64,7 @@ nav a {
     font-size: 24px;
     margin-top: 10px;
     display: block;
+    text-align: center; 
 }
 .card p {
   margin: 8px 0; 
