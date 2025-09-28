@@ -66,11 +66,15 @@ nav a {
 .card p {
   margin: 8px 0; 
 }
+.card h2 {
+    margin-bottom: 10px;
+}
 
 
 .estado-salud p {
     font-size: 18px;
     margin: 15px 0;
+    display: block;
     
 }
 
