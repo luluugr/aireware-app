@@ -62,6 +62,7 @@ nav a {
 .aqi-valor {
     font-size: 24px;
     margin-top: 10px;
+    display: block;
 }
 .card p {
   margin: 8px 0; 
