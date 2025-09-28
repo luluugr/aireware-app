@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirAware - Calidad del Aire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#mapa">Mapa</a></li>
+                <li><a href="#recomendaciones">Recomendaciones</a></li>
+                <li><a href="#predicciones">Predicciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="pantalla-inicio">
+            <h1>Calidad del Aire Actual</h1>
+
+            <div class="velocimetro">
+                <div class="velocimetro-base">
+                    <div class="aguja" id="aguja"></div>
+                </div>
+                <p class="aqi-valor" id="aqi-valor">Not Available</p>
+            </div>
+
+            <div class="estado-salud" id="estado-salud">
+                <p>Estado de salud: Desconocido 😐</p>
+            </div>
+
+            <div class="acciones-recomendadas">
+                <h2>Acciones recomendadas hoy</h2>
+                <ul id="acciones-lista">
+                    <li>No disponible</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
 
