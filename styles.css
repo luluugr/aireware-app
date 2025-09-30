@@ -37,10 +37,14 @@ nav a {
     margin: 30px auto;
 }
 
+.pantalla-inicio .velocimetro {
+    max-width: 250px;
+}
+
 .velocimetro {
     position: relative;
     width: 250px;
-    height: 120px;
+    height: 125px;
     margin: 0 auto 20px auto;
    
 }
