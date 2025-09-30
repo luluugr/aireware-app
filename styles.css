@@ -25,6 +25,13 @@ nav a {
     font-weight: bold;
 }
 
+.descripcion, .descripcion-lista {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
 .pantalla-inicio {
     text-align: center;
     margin: 30px auto;
