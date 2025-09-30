@@ -41,6 +41,9 @@ nav a {
     margin: 30px auto;
 }
 
+.pantalla-inicio h1 {
+    background-color: #004369
+}      
 .velocimetro, .velocimetro-base {
     max-width: 250px;
 }
